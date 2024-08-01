@@ -1,0 +1,128 @@
+.loomform-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  /* border: 3px solid blue; */
+
+}
+
+
+
+
+
+.top-beam {
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
+
+.SelvadgeJacquard {
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
+
+.LenoDesignEquipment {
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
+
+.Cramming {
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
+
+.loomattachments {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  /* border: 1px solid var(--primary-color); */
+border-top: 1px solid var(--primary-color);
+border-left:1px solid var(--primary-color) ;
+
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 30px;
+  /* border: 5px solid red; */
+}
+
+
+
+/* @media (max-width: 1200px) {
+  .loomform-container {
+      grid-template-columns: 1fr 1fr;
+
+  }
+  .btn2{width: 100%}
+
+  .loomattachments{
+    display: flex;
+    flex-direction: row ;
+    gap: 30px;
+     border: 1px solid var(--primary-color);
+      padding: 40px;
+       border-radius: 10px;
+     margin-top: 30px;
+     border: 5px solid red;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .loomform-container {
+      grid-template-columns: 1fr;
+    
+  }
+
+  .Attachments-container {
+      flex-direction: column;
+      gap: 20px;
+  }
+  .btn2{width: 100%}
+}
+
+@media (max-width: 480px) {
+  .loom_details {
+      padding: 10px;
+  }
+
+  .loomform-container {
+      padding: 10px;
+  }
+
+  .top-beam,
+  .SelvadgeJacquard,
+  .LenoDesignEquipment,
+  .Cramming {
+      flex-direction: row;
+    
+      gap: 10px;
+  }
+
+  .Attachments-container {
+      padding: 10px;
+  }
+
+  .btn2{width: 100%}
+
+
+} */
+
+
+@media only screen and (max-width: 900px) {
+  .loomform-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+  
+
+  
+}
